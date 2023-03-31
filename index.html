@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/ico" href="images/icon_page.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CRUD">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+</head>
+<body>
+</br>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th>Nombre</th> 
+                      <th>Apellido</th>
+                      <th>Pais</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label for="nom">Nombre</label> <input type="text" id="nom" placeholder="Nombre" required>
+                <label for="ape">Apellido</label> <input type="text" id="ape" placeholder="Apellido" required>
+                <label for="pais">País</label> <input type="text" id="pais" placeholder="Pais" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Escribir">
+              </form>
+        <br/>
+        <br/>
+        </div>
+</body>
+<script type="text/javascript" src="js/crud.js"></script>
+</html>

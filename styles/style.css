@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.link:hover {
+    color: white;
+    background-color: #00438D;
+    border: 0.5px solid #D5D9D9;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: inherit;
+}
+.menu li{
+    display: inline; 
+}
+
+
+a:link{
+text-decoration: none;
+}
+.social{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+form{
+    text-align: center;
+}
+.tablita{
+    display: inline-block;    
+}
+.tabla{
+border-collapse: collapse;
+font-family: 'Quicksand', sans-serif;
+}
+table tr th{
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #92ff92;
+}
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    display: block;
+}
+.caja label{
+    font-family: 'Quicksand', sans-serif;
+}
+.caja input{
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+}
+.submit{
+    width: 8em;
+    height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #92ff92;
+    border: 2px solid white;
+}
